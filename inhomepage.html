@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>指南報社—國際</title>
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@100;300;400;500;700;900&family=Noto Serif TC:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .page-block {
+            background-color: #FFFAF9;
+            padding-bottom: 20px;
+            width: 1440px;
+        }
+
+        body,
+        p {
+            margin: 0px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #FFFAF9;
+        }
+
+        /*desktop*/
+        @media (min-width: 1024px) {
+
+
+            .only-for-desktop {
+                display: block;
+            }
+
+            .only-for-tablet {
+                display: none;
+            }
+
+            .only-for-phone {
+                display: none;
+            }
+
+
+
+            .header {
+                background-color: #6E5241;
+                width: 100%;
+                height: 120px;
+                position: relative;
+            }
+
+            .header-font {
+                font-family: 'Noto Serif TC';
+                font-size: 24px;
+                line-height: 34px;
+                font-weight: 900;
+                color: #FFFAF9;
+                margin-right: 30px;
+                letter-spacing: 0.1em;
+            }
+
+            .header-font a:hover {
+                color: #FFFAF9;
+                opacity: 60%;
+            }
+
+            .logo {
+                width: 150px;
+                position: absolute;
+                left: 40px;
+            }
+
+
+            .p {
+                background-color: #FFFAF9;
+                margin-right: auto;
+                position: relative;
+                width: 100%;
+                height: 282.1px;
+                margin-bottom: 163px;
+            }
+
+
+
+
+            .firstpic {
+                display: inline-block;
+                width: 400px;
+                height: 96px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .firstimg {
+                width: 665px;
+                height: 443px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .firsttitle {
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 34px;
+                color: #6E5241;
+                height: 72px;
+                width: 250px;
+                margin-top: 150px;
+                margin-left: 800px;
+            }
+
+
+            .secondtitle {
+                width: 454px;
+                height: 40px;
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 34.75px;
+                color: #6E5241;
+                text-align: center;
+
+
+            }
+
+
+
+            .category {
+                width: 220px;
+                height: 70px;
+                background-color: #6E5241;
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 63px;
+                color: #FFFAF9;
+                text-align: center;
+                position: relative;
+                bottom: 500px;
+                right: 15px;
+            }
+
+            .cat {
+                width: 200px;
+                height: 60px;
+                background-color: #A98B73;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .cat-font {
+                font-family: 'Noto Serif TC';
+                font-size: 24px;
+                line-height: 58px;
+                font-weight: 900;
+                color: #FFFAF9;
+            }
+
+            .cat-r {
+                width: 12px;
+                height: 62px;
+                background-color: #FFFAF9;
+                display: inline-block;
+            }
+
+            .cat-b {
+                width: 290px;
+                height: 12px;
+                background-color: #FFFAF9;
+                margin-left: 12px;
+            }
+
+            .articleinfotitle {
+                width: 314px;
+                height: 100px;
+                background-color: #A98B73;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: justify;
+            }
+
+
+
+            .articleinfotitle-font {
+                font-family: 'Noto Serif TC';
+                font-size: 24px;
+                width: 270px;
+                line-height: 34.75px;
+                font-weight: 700;
+                color: #FFFAF9;
+            }
+
+            .articleinfoindex {
+                width: 314px;
+                height: 214px;
+                background-color: #A98B73;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: justify;
+            }
+
+            .articleinfoindex-font {
+                font-family: 'Noto Serif TC';
+                font-size: 14px;
+                width: 250px;
+                line-height: 17.38px;
+                font-weight: 500;
+                color: #FFFAF9;
+            }
+
+            .internacional {
+                width: 900px;
+                height: 1013px;
+                left: 0px;
+                margin-top: 600px;
+                background-color: #FFFAF9;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+
+            .internacional-1 {
+                flex-direction: row;
+                width: 600px;
+                height: 416px;
+                margin-left: 45px;
+                top: 1000px;
+                padding-right: 30px;
+                padding-top: 10px;
+            }
+
+            .internacional-2 {
+                flex-direction: row;
+                width: 600px;
+                height: 416px;
+                margin-left: auto;
+                top: 1867px;
+                padding-top: 10px;
+            }
+
+
+            .internacional-3 {
+                flex-direction: row;
+                width: 600px;
+                height: 416px;
+                margin-left: 45px;
+                top: 1000px;
+                padding-right: 30px;
+            }
+
+            .internacional-4 {
+                flex-direction: row;
+                width: 600px;
+                height: 416px;
+                margin-left: auto;
+                top: 1867px;
+            }
+
+            .internacional-5 {
+                flex-direction: row;
+                width: 600px;
+                height: 416px;
+                margin-left: 45;
+                margin-top: -10px;
+            }
+
+
+        }
+
+        @media (max-width: 767px) {
+            .only-for-desktop {
+                display: none;
+            }
+
+            .only-for-tablet {
+                display: none;
+            }
+
+            .only-for-phone {
+                display: block;
+            }
+
+            .header {
+                background-color: #6E5241;
+                width: 100%;
+                height: 60px;
+                position: relative;
+            }
+
+            .header-font {
+                font-family: 'Noto Serif TC';
+                font-size: 15px;
+                line-height: 29px;
+                font-weight: 900;
+                color: #FFFAF9;
+                margin-right: 15px;
+                letter-spacing: 0.04em;
+            }
+
+            .header-font a:hover {
+                color: #FFFAF9;
+                opacity: 60%;
+            }
+
+            .logo {
+                width: 82px;
+                position: absolute;
+                left: 10px;
+                top: 5px;
+            }
+
+            .p {
+                background-color: #FFFAF9;
+                margin-right: auto;
+                margin-left: auto;
+                position: relative;
+                width: 100%;
+                height: 134px;
+            }
+
+
+            .internacional {
+                margin-left: auto;
+                margin-right: auto;
+                background: #FFFAF9;
+                margin-top: 70px;
+            }
+
+            .internacional-1 {
+                width: 280px;
+                height: 276px;
+                margin: auto;
+                padding-top: 8.8px;
+            }
+
+            .internacional-2 {
+                width: 280px;
+                height: 276px;
+                margin: auto;
+                margin-top: 30px;
+
+            }
+
+            .internacional-3 {
+                width: 280px;
+                height: 276px;
+                margin: auto;
+                margin-top: 30px;
+
+            }
+
+            .internacional-4 {
+                width: 280px;
+                height: 276px;
+                margin: auto;
+                margin-top: 30px;
+
+            }
+
+            .internacional-5 {
+                width: 280px;
+                height: 276px;
+                margin: auto;
+                margin-top: 30px;
+
+            }
+
+            .internacional-6 {
+                width: 280px;
+                height: 276px;
+                margin: auto;
+                margin-top: 30px;
+
+            }
+
+            .cat {
+                width: 60px;
+                height: 30px;
+                background-color: #A98B73;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .cat-font {
+                font-family: 'Noto Serif TC';
+                font-size: 16px;
+                line-height: 23.17px;
+                font-weight: 500;
+                color: #FFFAF9;
+            }
+
+            .title {
+                width: 280px;
+                height: 40px;
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 23px;
+                color: #6E5241;
+                text-align: center;
+
+
+            }
+        }
+    </style>
+
+</head>
+
+<body style=" background-color: #FFFAF9">
+    <div class="only-for-desktop">
+        <div class="header">
+            <div style="position: absolute;left:0px; top:13px">
+                <a href="https://107509304.github.io/Zhinan.site/homepage.html">
+                    <img src="assets/logo.png" class="logo"></a>
+            </div>
+            <div style="display: inline-block; position: absolute; right:5px; top:40px">
+                <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/shomepage.html" target="_self">校園</a></span>
+                <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/inhomepage.html" target="_self">國際</a></span>
+                <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/spthomepage.html" target="_self">體育</a></span>
+                <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/lifehomepage.html" target="_self">生活</a></span>
+                <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/topichomepage.html" target="_self">專題</a></span>
+                <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/aboutus.html" target="_self">關於我們</a></span>
+
+
+            </div>
+        </div>
+
+        <div style="position: absolute;margin-top: 30px;margin-left: 60px;">
+            <div style="display: flex;align-items: flex-end;">
+                <div style="display: inline-block;">
+                    <div class="cat">
+                        <span class="cat-font">國際</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div style="position: absolute;width: 314px;height: 314px;margin-top: 130px;margin-left: 280px;">
+            <div style="display: flex;align-items: flex-end;">
+                <div style="display: inline-block;">
+                    <div class="firstpic">
+                        <a href=" https://nickhsine.github.io/teach-at-nccu/">
+                            <img src="assets/internacional-1.png" class="firstimg">
+                            <div style="position: absolute;width: 314px;height: 100px;margin-top: -375px;margin-left: 612px;"
+                                class="articleinfotitle">
+                                <span class="articleinfotitle-font">孟加拉公車意外頻傳　學生封街爭取道路安全</span>
+                            </div>
+                            <div style="position: absolute;width: 314px;height: 214px;margin-top: -275px;margin-left: 612px;"
+                                class="articleinfoindex">
+                                <span class="articleinfoindex-font">「在孟加拉，交通規範簡直形同虛設。」孟加拉歐洲大學（European  University of Bangladesh, EUB）學生沙希努爾．拉赫曼（Shahinur Rahman）沉痛地說道。11月28日，大批學生發起「道路安全運動（Road Safety Movement）」，他們封鎖首都達卡多處交通要道，並提出九點訴求呼籲政府正視當地的交通安全問題。</span>
+                            </div>
+
+                    </div></a>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="internacional">
+                <div style="display: flex; justify-content: center;">
+                    <div class="internacional-1">
+                        <img src="assets/internacional-2.jpeg" width="454px" height="303px">
+                        <div class="secondtitle">酒吧下藥文化猖獗　英青年上街控訴惡行</div>
+                    </div>
+                    <div class="internacional-2">
+                        <img src="assets/internacional-3.png" width="454px" height="303px">
+                        <div class="secondtitle">鬱金香不憂鬱　美生種花除精神疾病汙名
+                        </div>
+
+                    </div>
+                </div>
+
+                <div style="display: flex; justify-content: center;">
+                    <div class="internacional-3">
+                        <img src="assets/internacional-4.jpeg" width="454px" height="303px">
+                        <div class="secondtitle">衣索比亞提格雷戰爭：默克萊大學淪攻擊標的</div>
+
+
+                    </div>
+                    <div class="internacional-4">
+                        <img src="assets/internacional-5.jpg" width="454px" height="303px">
+                        <div class="secondtitle">學生抗議性暴力無止盡　孟加拉祭死刑欲平眾怒</div>
+
+                    </div>
+                </div>
+                <div class="internacional-5">
+                    <img src="assets/internacional-6.jpg" width="454px" height="303px">
+                    <div class="secondtitle">護言論自由　法被斬師於索邦大學舉行國葬</div>
+
+                </div>
+            </div>
+    </div>
+    <div class="only-for-phone">
+        <div class="header">
+            <div>
+                <a href="https://107509304.github.io/Zhinan.site/homepage.html">
+                    <img src="assets/logo.png" class="logo"></a>
+            </div>
+            <div style="display: inline-block; position: absolute; right:5px; top:20px">
+                <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/shomepage.html" target="_self">校園</a></span>
+                <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/inhomepage.html" target="_self">國際</a></span>
+                <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/spthomepage.html" target="_self">體育</a></span>
+                <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/lifehomepage.html" target="_self">生活</a></span>
+                <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/topichomepage.html" target="_self">專題</a></span>
+                <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/aboutus.html" target="_self">關於我們</a></span>
+
+            </div>
+
+        </div>
+
+        <div style="position: absolute;margin-top: 30px;margin-left: 30px;">
+            <div style="display: flex;align-items: flex-end;">
+                <div style="display: inline-block;">
+                    <div class="cat">
+                        <span class="cat-font">國際</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="internacional">
+            <div class="internacional-1">
+                <a href="">
+                    <img src="assets/internacional-1.png" width="280px" height="210px">
+                    <div class="title">孟加拉公車意外頻傳<br>
+                        學生封街爭取道路安全</div>
+                </a>
+            </div>
+
+            <div class="internacional-2">
+                <a href="">
+                    <img src="assets/internacional-2.jpeg" width="280px" height="210px">
+                    <div class="title">酒吧下藥文化猖獗<br>
+                        英青年上街控訴惡行
+                    </div>
+                </a>
+            </div>
+            <div class="internacional-3">
+                <a href="">
+                    <img src="assets/internacional-3.png" width="280px" height="210px">
+                    <div class="title">鬱金香不憂鬱<br>
+                        美生種花除精神疾病汙名
+                    </div>
+                </a>
+            </div>
+            <div class="internacional-4">
+                <a href="">
+                    <img src="assets/internacional-4.jpeg" width="280px" height="210px">
+                    <div class="title">衣索比亞提格雷戰爭：<br>
+                        默克萊大學淪攻擊標的
+                    </div>
+                </a>
+            </div>
+            <div class="internacional-5">
+                <a href="">
+                    <img src="assets/internacional-5.jpg" width="280px" height="210px">
+                    <div class="title">學生抗議性暴力無止盡<br>
+                        孟加拉祭死刑欲平眾怒
+                    </div>
+                </a>
+            </div>
+
+            <div class="internacional-6">
+                <a href="">
+                    <img src="assets/internacional-6.jpg" width="280px" height="210px">
+                    <div class="title">護言論自由<br>
+                        法被斬師於索邦大學舉行國葬
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+</html>
