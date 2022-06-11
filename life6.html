@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>快閃拆搭木建築　樹屋協會邀民與樹共生</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@100;300;400;500;700;900&family=Noto Serif TC:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .page-block {
+            background-color: #FFFAF9;
+            padding-bottom: 20px;
+            width: 100%;
+        }
+
+        body,
+        p {
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+        }
+
+        a {
+            text-decoration: none;
+            color: #FFFAF9;
+        }
+
+        /*desktop*/
+        @media (min-width: 768px) {
+
+
+            .only-for-desktop {
+                display: block;
+            }
+
+            .only-for-tablet {
+                display: none;
+            }
+
+            .only-for-phone {
+                display: none;
+            }
+
+
+
+
+
+            .header {
+                background-color: #6E5241;
+                width: 100%;
+                height: 120px;
+                position: relative;
+            }
+
+            .header-font {
+                font-family: 'Noto Serif TC';
+                font-size: 24px;
+                line-height: 34px;
+                font-weight: 900;
+                color: #FFFAF9;
+                margin-right: 30px;
+                letter-spacing: 0.1em;
+            }
+
+            .header-font a:hover {
+                color: #FFFAF9;
+                opacity: 60%;
+            }
+
+            .logo {
+                width: 150px;
+                position: absolute;
+                left: 40px;
+            }
+
+            p {
+
+                width: 780px;
+                line-height: 34.75px;
+                left: 272px;
+                margin-top: 50px;
+                margin-bottom: 45px;
+                margin-left: 272px;
+                margin-right: 388px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                color: #4A4845;
+                display: inline-block;
+
+
+            }
+
+            h1.title {
+                width: 908px;
+                margin-left: 272px;
+                margin-right: px;
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 55px;
+                line-height: 80px;
+                margin-bottom: -20px;
+
+                color: #6E5241;
+            }
+
+
+            figure.pic {
+                margin-left: 272px;
+                width: 100%;
+            }
+
+            figure.pic img {
+
+                width: 1076px;
+                top: 526px;
+                padding-bottom: 20.64px;
+
+            }
+
+            figure.pic figcaption {
+
+                width: 250px;
+                height: 12px;
+                margin-left: 820px;
+                margin-top: 0px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 22px;
+
+                color: #A98B73
+            }
+
+            .bottom-separation {
+
+                width: 251px;
+                height: 0px;
+                margin-left: 1094px;
+                margin-top: 67px;
+                border: 1px solid #A98B73;
+
+            }
+
+            .b-separation {
+
+                width: 251px;
+                height: 0px;
+                margin-left: 1094px;
+                margin-top: 80px;
+                border: 1px solid #A98B73;
+
+            }
+
+
+
+            #metadata-block {
+                margin-top: 50px;
+                margin-left: 49px;
+
+                background: #FFFFFF;
+                border: 2px solid #A98B73;
+                display: inline-block;
+            }
+
+            #metadata-block .category {
+                font-size: 20px;
+                font-weight: bold;
+                color: #A98B73;
+                padding-top: 14px;
+                padding-left: 56px;
+                padding-right: 57px;
+
+            }
+
+            #metadata-block .published-date {
+                color: #847E79;
+                font-weight: 500;
+                padding-left: 39px;
+                padding-right: 40px;
+                padding-bottom: 12px;
+                padding-top: 20px;
+
+
+            }
+
+            #metadata-block .Author-text {
+                font-weight: 500;
+                font-size: 15px;
+                padding-left: 32px;
+                padding-right: 30px;
+                color: #847E79;
+            }
+
+            .bottom {
+                width: 100%;
+                height: 166px;
+                background-color: #6E5241;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                margin-top: 150px;
+                bottom: -60px;
+            }
+
+            .bottom-font {
+                color: #FFFAF9;
+                font-family: 'Noto Serif TC';
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 20px;
+                margin-left: 105px;
+                letter-spacing: 0.155em;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .only-for-desktop {
+                display: none;
+            }
+
+            .only-for-tablet {
+                display: none;
+            }
+
+            .only-for-phone {
+                display: block;
+            }
+
+
+            .header {
+                background-color: #6E5241;
+                width: 100%;
+                height: 60px;
+                position: relative;
+            }
+
+            .header-font {
+                font-family: 'Noto Serif TC';
+                font-size: 15px;
+                line-height: 29px;
+                font-weight: 900;
+                color: #FFFAF9;
+                margin-right: 15px;
+                letter-spacing: 0.04em;
+            }
+
+            .header-font a:hover {
+                color: #FFFAF9;
+                opacity: 60%;
+            }
+
+            .logo {
+                width: 82px;
+                position: absolute;
+                left: 0px;
+                top: 5px;
+            }
+
+            p {
+
+                width: 379px;
+                line-height: 29px;
+                left: 23px;
+                margin-top: 90px;
+                margin-bottom: 0px;
+                margin-left: 24px;
+                margin-right: 0px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                color: #4A4845;
+                display: block;
+
+
+            }
+
+            h1.title {
+                width: 367px;
+                margin-left: 23px;
+                margin-right: 0px;
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 38px;
+                line-height: 55px;
+                margin-top: -20px;
+                color: #6E5241;
+            }
+
+
+            figure.pic {
+                margin-left: 0px;
+                width: 100%;
+            }
+
+            figure.pic img {
+                margin-top: 10px;
+
+                width: 428px;
+                top: 0px;
+                padding-bottom: 9px;
+
+            }
+
+            figure.pic figcaption {
+
+                width: 402px;
+                height: 57px;
+                margin-left: 17px;
+                margin-top: 0px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 19px;
+
+                color: #A98B73
+            }
+
+            #metadata-block {
+                margin-top: 2px;
+                margin-left: 24px;
+                width: 299px;
+                background: #FFFFFF;
+                border: 2px solid #A98B73;
+                display: block;
+            }
+
+            .category {
+                font-size: 20px;
+                font-weight: bold;
+                color: #A98B73;
+                margin-top: 29px;
+                margin-left: 23px;
+                padding-top: 0px;
+                padding-left: 0px;
+                padding-right: 0px;
+                font-family: 'Noto Serif TC';
+
+            }
+
+            #metadata-block .published-date {
+                color: #847E79;
+                font-weight: 500;
+                font-size: 15px;
+                padding-left: 11px;
+                padding-bottom: 5px;
+                padding-top: 2px;
+                font-family: 'Noto Serif TC';
+
+
+            }
+
+            #metadata-block .Author-text {
+                font-weight: 500;
+                font-size: 15px;
+                padding-left: 11px;
+                padding-top: 3px;
+                color: #847E79;
+                font-family: 'Noto Serif TC';
+            }
+
+            .bottom {
+                width: 100%;
+                height: 123px;
+                background-color: #6E5241;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                margin-top: 10px;
+                bottom: -20px;
+            }
+
+            .bottom-fontt {
+                color: #FFFAF9;
+                font-family: 'Noto Serif TC';
+                font-weight: bold;
+                font-size: 9px;
+                width: 250px;
+                line-height: 20px;
+                margin-left: 20px;
+                letter-spacing: 0.155em;
+                margin-top: -35px;
+            }
+
+            .bottom-font {
+                color: #FFFAF9;
+                font-family: 'Noto Serif TC';
+                font-weight: bold;
+                font-size: 9px;
+                width: 250px;
+                line-height: 20px;
+                margin-left: 20px;
+                letter-spacing: 0.155em;
+                margin-top: -1px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <body style="background-color: #FFFAF9">
+        <div class="only-for-desktop">
+            <div class="header">
+                <div style="position: absolute;left:0px; top:13px">
+                    <img src="assets/logo.png" class="logo">
+                </div>
+                <div style="display: inline-block; position: absolute; right:5px; top:40px">
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/shomepage.html"
+                            target="_self">校園</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/inhomepage.html"
+                            target="_self">國際</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/spthomepage.html"
+                            target="_self">體育</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/lifehomepage.html"
+                            target="_self">生活</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/topichomepage.html"
+                            target="_self">專題</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/aboutus.html"
+                            target="_self">關於我們</a></span>
+
+                </div>
+            </div>
+            <div class="page-block ">
+                <h1 class="title">快閃拆搭木建築　樹屋協會邀民與樹共生</h1>
+                <div id="metadata-block">
+                    <div class="category" style="margin-bottom: 30px;">生活</div>
+                    <div class="Author-text">文字/ 黑立安</div>
+                    <div class="published-date">2020/10/15</div>
+
+
+                </div>
+                <div style="display:inline-block ; margin-top:-162px;">
+                    <p>小朋友們圍繞在台灣杉搭建的木造平台旁，拿著鐵橇和鑽頭鬆開螺絲，動手拆除樹屋平台。「台灣樹屋協會」於1日及2日邀請30位志工在苗栗縣通霄海水浴場旁搭建樹屋平台，10日舉辦「快閃樹屋派對x森林海洋市集」邀請民眾爬上樹平台參觀，並在活動後拆除。
+                    </p>
+
+                </div>
+
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/10/e4da3b7fbbce2345d7772b0674a318d5-8-scaled.jpg">
+                        <figcaption>
+                            快閃樹屋派對吸引許多親子前來同樂、體驗工作坊並學習與樹共生。　（圖／黑立安攝）</figcaption>
+                    </figure>
+                </div>
+
+                <div class="bottom-separation"></div>
+
+                <div>
+                    <p>快閃樹屋派對現場，除了可以攀上平台玩耍，也可以參加攀樹工作坊或是學習搭建印地安帳篷，吸引親子一同玩樂。參與快閃樹屋派對的家長劉俊廷分享，希望參加活動讓小朋友有親近森林的機會，並學習尊重自然生態。樹屋的上層平台設計成小型書店，除了販賣書本外也為民眾進行書占卜，吸引大小朋友上來一探究竟。
+                    </p>
+                </div>
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/10/a87ff679a2f3e71d9181a67b7542122c-10-scaled.jpg">
+                        <figcaption>
+                            樹屋使用台灣生產的建材台灣杉建造，有上下兩個寬廣的木造平台。　（圖／黑立安攝）</figcaption>
+                    </figure>
+                </div>
+
+                <div class="bottom-separation"></div>
+                <div>
+                    <p>台灣樹屋協會使用台灣杉做為樹屋的主要建材，再加上海洋漂流木、木麻黃落葉點綴。國立臺灣科技大學建築學系學生張哲銘提到，當初選擇參與建造樹屋，是因為對木建築有興趣，同時想要實踐課堂所學，且木建築是最容易接觸到的建築形式。他說：「最開心的是，看到一個與自然可以和諧共生的建築物被實踐了。」張哲銘認為透過活動帶給他許多成就感。
+                    </p>
+                    <div>
+                        <figure class="pic">
+                            <img
+                                src="https://unews.nccu.edu.tw/wp-content/uploads/2020/10/eccbc87e4b5ce2fe28308fd9f2a7baf3-11-scaled.jpg">
+                            <figcaption>
+                                現場也開設印地安帳篷搭建工作坊，由台灣樹屋協會發起人林祐楨教導民眾如何運用繩子及竹子搭建帳篷。　（圖／黑立安攝）</figcaption>
+                        </figure>
+                        <div class="b-separation"></div>
+                    </div>
+
+                </div>
+                <div>
+                    <p>國立臺北科技大學建築學系學生邱品瑄同樣參與搭建樹屋，他在剛開始搭建樹平台時觀察到，台灣樹屋協會花了相當多時間研究與自然和諧共生的建築工法。由於實際建造樹屋平台時，需要考量樹木的實際生長狀況，為了不傷害樹木需要相當謹慎，因此他非常欣賞台灣樹屋協會尊重自然的作法。
+                    </p>
+                </div>
+
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/10/c81e728d9d4c2f636f067f89cc14862c-11-scaled.jpg">
+                        <figcaption>
+                            現場擺設海洋森林市集，攤位上販售由學生製作的迷你樹屋盆栽。（圖／黑立安攝）</figcaption>
+                    </figure>
+                </div>
+
+                <div class="bottom-separation"></div>
+                <div>
+                    <p>台灣樹屋協會為「樹屋夢迴」建築公司創辦人林祐楨發起的非營利組織，目前仍在草創階段，以網路推廣樹屋為主。林祐楨認為，人本身就具有攀爬的潛能，而樹屋是最直接可以與自然互動的方式，因此希望透過樹屋可以搭建人與自然的橋樑，並推廣「與樹共存，永續發展」的理念。
+                    </p>
+                    <div>
+                        <figure class="pic">
+                            <img
+                                src="https://unews.nccu.edu.tw/wp-content/uploads/2020/10/1679091c5a880faf6fb5e6087eb1b2dc-2-scaled.jpg">
+                            <figcaption>
+                                許多小朋友參與攀樹體驗工作坊，需要手腳並用，玩得不亦樂乎。（圖／黑立安攝）</figcaption>
+                        </figure>
+                    </div>
+                    <div class="bottom-separation"></div>
+                    <div>
+                        <p>為了順利推行後續計劃，台灣樹屋協會希望透過此次活動讓大眾更認識他們。林祐楨透露，協會未來預計召集志工，到各地協助建造樹屋，持續推廣與自然共存的理念。</p>
+                        <div>
+                            <figure class="pic">
+                                <img
+                                    src="https://unews.nccu.edu.tw/wp-content/uploads/2020/10/c4ca4238a0b923820dcc509a6f75849b-12-scaled.jpg">
+                                <figcaption>
+                                    攀樹體驗工作坊開始前，教練先請小朋友圍在樹旁跟樹打招呼，尊重樹木的生長。　（圖／黑立安攝）</figcaption>
+                            </figure>
+                            <div class="bottom-separation"></div>
+                        </div>
+                        <div class="bottom">
+                            <div style="display:inline-block;height: 35px;">
+                                <div class="bottom-font">記者｜黑立安 張珈爾 徐宇昕 王崴漢 黃敬文</div>
+                                <div class="bottom-font">指導｜李法賢</div>
+                                <div class="bottom-font">copyright©2022 指南報社</div>
+                            </div>
+
+                            <div style="position: relative; width: 185px;height: 50px; margin-right:20px;bottom:3px;">
+                                <img src="assets/logo.png" width=150px>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="only-for-phone">
+            <div class="header">
+                <div>
+                    <a href="https://107509304.github.io/Zhinan.site/homepage.html">
+                        <img src="assets/logo.png" class="logo"></a>
+                </div>
+                <div style="display: inline-block; position: absolute; right:5px; top:20px">
+                    <span class="header-font"><a href="https://106204021.github.io/trashnews/campuscat.html"
+                            target="_self">校園</a></span>
+                    <span class="header-font"><a href="https://106204021.github.io/trashnews/sportcat.html"
+                            target="_self">國際</a></span>
+                    <span class="header-font"><a href="https://106204021.github.io/trashnews/artcat.html"
+                            target="_self">體育</a></span>
+                    <span class="header-font"><a href="https://106204021.github.io/trashnews/about.html"
+                            target="_self">生活</a></span>
+                    <span class="header-font"><a href="https://106204021.github.io/trashnews/about.html"
+                            target="_self">專題</a></span>
+                    <span class="header-font"><a href="https://106204021.github.io/trashnews/about.html"
+                            target="_self">關於我們</a></span>
+                </div>
+            </div>
+            <div class="page-block ">
+                <div class="category" style="margin-bottom: 30px;">生活</div>
+                <h1 class="title">快閃拆搭木建築　樹屋協會邀民與樹共生</h1>
+                <div id="metadata-block">
+                    <div class="Author-text">文字/ 黑立安</div>
+                    <div class="published-date">2020.10.15</div>
+
+
+                </div>
+                <div style="display:inline-block ; margin-top:-58px;">
+                    <p>小朋友們圍繞在台灣杉搭建的木造平台旁，拿著鐵橇和鑽頭鬆開螺絲，動手拆除樹屋平台。「台灣樹屋協會」於1日及2日邀請30位志工在苗栗縣通霄海水浴場旁搭建樹屋平台，10日舉辦「快閃樹屋派對x森林海洋市集」邀請民眾爬上樹平台參觀，並在活動後拆除。
+                    </p>
+
+                </div>
+
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/10/e4da3b7fbbce2345d7772b0674a318d5-8-scaled.jpg">
+                        <figcaption>
+                            快閃樹屋派對吸引許多親子前來同樂、體驗工作坊並學習與樹共生。　（圖／黑立安攝）</figcaption>
+                    </figure>
+                </div>
+
+                <div class="bottom-separation"></div>
+
+                <div style="margin-top:-80px">
+                    <p>快閃樹屋派對現場，除了可以攀上平台玩耍，也可以參加攀樹工作坊或是學習搭建印地安帳篷，吸引親子一同玩樂。參與快閃樹屋派對的家長劉俊廷分享，希望參加活動讓小朋友有親近森林的機會，並學習尊重自然生態。樹屋的上層平台設計成小型書店，除了販賣書本外也為民眾進行書占卜，吸引大小朋友上來一探究竟。
+                    </p>
+                </div>
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/10/a87ff679a2f3e71d9181a67b7542122c-10-scaled.jpg">
+                        <figcaption>
+                            樹屋使用台灣生產的建材台灣杉建造，有上下兩個寬廣的木造平台。　（圖／黑立安攝）</figcaption>
+                    </figure>
+                </div>
+
+                <div class="bottom-separation"></div>
+                <div style="margin-top:-80px">
+                    <p>台灣樹屋協會使用台灣杉做為樹屋的主要建材，再加上海洋漂流木、木麻黃落葉點綴。國立臺灣科技大學建築學系學生張哲銘提到，當初選擇參與建造樹屋，是因為對木建築有興趣，同時想要實踐課堂所學，且木建築是最容易接觸到的建築形式。他說：「最開心的是，看到一個與自然可以和諧共生的建築物被實踐了。」張哲銘認為透過活動帶給他許多成就感。
+                    </p>
+                    <div>
+                        <figure class="pic">
+                            <img
+                                src="https://unews.nccu.edu.tw/wp-content/uploads/2020/10/eccbc87e4b5ce2fe28308fd9f2a7baf3-11-scaled.jpg">
+                            <figcaption>
+                                現場也開設印地安帳篷搭建工作坊，由台灣樹屋協會發起人林祐楨教導民眾如何運用繩子及竹子搭建帳篷。　（圖／黑立安攝）</figcaption>
+                        </figure>
+                        <div class="bottom-separation"></div>
+                    </div>
+
+                </div>
+                <div style="margin-top:-80px">
+
+                    <p>國立臺北科技大學建築學系學生邱品瑄同樣參與搭建樹屋，他在剛開始搭建樹平台時觀察到，台灣樹屋協會花了相當多時間研究與自然和諧共生的建築工法。由於實際建造樹屋平台時，需要考量樹木的實際生長狀況，為了不傷害樹木需要相當謹慎，因此他非常欣賞台灣樹屋協會尊重自然的作法。
+                    </p>
+                </div>
+
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/10/c81e728d9d4c2f636f067f89cc14862c-11-scaled.jpg">
+                        <figcaption>
+                            現場擺設海洋森林市集，攤位上販售由學生製作的迷你樹屋盆栽。（圖／黑立安攝）</figcaption>
+                    </figure>
+                </div>
+
+                <div class="bottom-separation"></div>
+                <div style="margin-top:-80px">
+                    <p>台灣樹屋協會為「樹屋夢迴」建築公司創辦人林祐楨發起的非營利組織，目前仍在草創階段，以網路推廣樹屋為主。林祐楨認為，人本身就具有攀爬的潛能，而樹屋是最直接可以與自然互動的方式，因此希望透過樹屋可以搭建人與自然的橋樑，並推廣「與樹共存，永續發展」的理念。
+                    </p>
+                    <div>
+                        <figure class="pic">
+                            <img
+                                src="https://unews.nccu.edu.tw/wp-content/uploads/2020/10/1679091c5a880faf6fb5e6087eb1b2dc-2-scaled.jpg">
+                            <figcaption>
+                                許多小朋友參與攀樹體驗工作坊，需要手腳並用，玩得不亦樂乎。（圖／黑立安攝）</figcaption>
+                        </figure>
+                    </div>
+                    <div style="margin-top:-80px">
+                        <p>為了順利推行後續計劃，台灣樹屋協會希望透過此次活動讓大眾更認識他們。林祐楨透露，協會未來預計召集志工，到各地協助建造樹屋，持續推廣與自然共存的理念。</p>
+                        <div>
+                            <figure class="pic">
+                                <img
+                                    src="https://unews.nccu.edu.tw/wp-content/uploads/2020/10/c4ca4238a0b923820dcc509a6f75849b-12-scaled.jpg">
+                                <figcaption>
+                                    攀樹體驗工作坊開始前，教練先請小朋友圍在樹旁跟樹打招呼，尊重樹木的生長。　（圖／黑立安攝）</figcaption>
+                            </figure>
+                            <div class="bottom-separation"></div>
+                        </div>
+                        <div class="bottom">
+                            <div style="display:inline-block;height: 0px;">
+                                <div class="bottom-fontt">記者｜黑立安 張珈爾 徐宇昕 王崴漢 黃敬文</div>
+                                <div class="bottom-font">指導｜李法賢</div>
+                                <div class="bottom-font">copyright©2022 指南報社</div>
+                            </div>
+
+                            <div style="position: relative;height: 50px;bottom:15px;">
+                                <img src="assets/logo.png" width=150px>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
