@@ -226,7 +226,7 @@
                 width: 900px;
                 height: 1013px;
                 left: 0px;
-                margin-top: 600px;
+                margin-top: 100px;
                 background-color: #FFFAF9;
                 margin-left: auto;
                 margin-right: auto;
@@ -307,7 +307,7 @@
             .only-for-desktop {
                 display: none;
             }
-            
+
             .only-for-phone {
                 display: block;
             }
@@ -409,6 +409,7 @@
                 width: 60px;
                 height: 30px;
                 background-color: #A98B73;
+                /* 我要讓裡面的字垂直水平置中 */
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -465,7 +466,7 @@
 <body style=" background-color: #FFFAF9">
     <div class="only-for-desktop">
         <div class="header">
-            <div style="position: absolute;left:0px; top:13px">
+            <div>
                 <a href="https://107509304.github.io/Zhinan.site/homepage.html">
                     <img src="assets/logo.png" class="logo"></a>
             </div>
@@ -486,19 +487,28 @@
             </div>
         </div>
 
-        <div style="position: absolute;margin-top: 30px;margin-left: 60px;">
-            <div style="display: flex;align-items: flex-end;">
-                <div style="display: inline-block;">
-                    <div class="cat">
-                        <span class="cat-font">體育</span>
-                    </div>
-
-                </div>
+        <div style="margin-top: 30px;margin-left: 60px;">
+            <div class="cat">
+                <span class="cat-font">體育</span>
             </div>
-
         </div>
 
-        <div style="position: absolute;width: 314px;height: 314px;margin-top: 130px;margin-left: 280px;">
+        <!-- 用 flexbox 排版，照片在左，文字框在右 -->
+        <div style="display: flex; align-items: center; justify-content: center; margin-top: 80px;">
+            <!-- 照片 -->
+            <img src="assets/sport-1.jpg" class="firstimg"></img>
+            <!-- 文字框 -->
+            <div style="width: 314px; background-color: #A98B73; margin-left: -50px;">
+                <h6 style="width: 270px; margin-left: auto; margin-right: auto; font-size: 24px; color: #FFFAF9; font-weight: 700;">「曲」敵人、守球門　北市大曲棍球延長戰奪冠</h6>
+                <p style="width: 250px; margin-left: auto; margin-right: auto; font-size: 14px; color: #FFFAF9; font-weight: 500;">選手熟練地控球閃避對手的攔阻，揮桿將球傳給射門弧區內的隊友，成功得分。中華民國 109
+                    學年度全國中正盃曲棍球錦標賽社會組於 9 日至 13 日於國立竹山高級中學登場。其中社會男子組冠軍戰由臺北市立大學對上南投縣，兩隊鏖戰至 25
+                    碼射門延長賽，最終北市大守門員潘柏文替球員守下勝利。</p>
+            </div>
+            
+        </div>
+
+        <!--
+        <div style="width: 314px;height: 314px;margin-top: 130px;margin-left: 280px;">
             <div style="display: flex;align-items: flex-end;">
                 <div style="display: inline-block;">
                     <div class="firstpic">
@@ -519,6 +529,7 @@
                 </div>
             </div>
         </div>
+    -->
 
 
         <div class="sport">
