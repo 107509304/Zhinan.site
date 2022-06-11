@@ -64,6 +64,18 @@
                 letter-spacing: 0.1em;
             }
 
+            /* 
+               因為第35行 `a` tag 設定了文字顏色，
+               所以兩個設定打架了，
+               而 `a` tag 的設定權重大於 `.header-font` class 的設定，
+               所以瀏覽器最後使用 `a` 的設定。
+               所以我們需要加重 `.header-font` 的權重，如下：
+             */
+            .header-font a {
+                color: #6E5241;
+            }
+
+
             .header-font a:hover {
                 color: #6E5241;
                 opacity: 60%;
@@ -143,39 +155,23 @@
                 margin-top: 100px;
             }
 
-            .topic-1 {
+            .topic-item {
                 width: 600px;
-                height: 416px;
-                margin: auto;
-            }
-
-            .topic-2 {
-                width: 600px;
-                height: 416px;
-                margin: auto;
-                margin-top: 0px;
-
-            }
-
-            .topic-3 {
-                width: 600px;
-                height: 416px;
-                margin: auto;
-                margin-top: 0px;
-
-            }
-
-            .topic-4 {
-                width: 600px;
-                height: 416px;
-                margin: auto;
-                margin-top: 0px;
-
+                /* 我們不設定高度，讓元素自己決定高度 */
+                /* height: 416px; */
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 80px;
             }
 
             .title {
                 width: 454px;
-                height: 40px;
+                /* width + margin-left: auto; margin-right: auto 讓區塊置中*/
+                margin-left: auto;
+                margin-right: auto;
+                
+                /* 不需要設定高度，我們讓文字自己長高 */
+                /* height: 40px; */
                 font-family: 'Noto Serif TC';
                 font-style: normal;
                 font-weight: bold;
@@ -183,7 +179,6 @@
                 line-height: 34.75px;
                 color: #FFFAF9;
                 text-align: center;
-
 
             }
 
@@ -268,8 +263,9 @@
             }
 
             .topic-1 {
+                /* 我們不設定高度，讓元素自己決定高度 */
                 width: 280px;
-                height: 276px;
+                /* height: 276px; */
                 margin: auto;
                 padding-top: 8.8px;
             }
@@ -317,7 +313,8 @@
 
             .title {
                 width: 280px;
-                height: 40px;
+                /* 不需要設定高度，我們讓文字自己長高 */
+                /* height: 40px; */
                 font-family: 'Noto Serif TC';
                 font-style: normal;
                 font-weight: bold;
@@ -393,29 +390,42 @@
 
 
         <div class="topic">
-            <div style="display: flex; justify-content: center;">
-                <div class="topic-1">
-                    <img src="assets/topic-1.jpg" width="454px" height="303px">
+            <!-- 這邊不需要使用 flexbox -->
+            <div>
+                <!-- 
+                  其實現在有置中了，但視覺上看起來沒有置中的原因是
+                  `.topic-1` 的 `width` 設定成 600px，
+                  但 `.topic-1` 裡面的 `img` 的寬度才 454px，
+                  而瀏覽器是根據 600px 來置中的。
+                  這邊有兩個做法：
+                  1. `.topic-1` 的寬度改成和照片等寬
+                  2. 將照片的寬度設定成 `100%`，讓他與 `topic-1` 區塊等寬
+
+                  下面的改法是使用方法 2 
+                  （我把 `.topic-1`, `topic-2` 統一改成 `.topic-item` ）
+                -->
+                <div class="topic-item">
+                    <img src="assets/topic-1.jpg" width="100%">
                     <div class="title">守護性平意識的堡壘？<br>性平會專業與獨立問題待解</div>
                 </div>
             </div>
-            <div style="display: flex; justify-content: center;">
-                <div class="topic-2">
-                    <img src="assets/topic-2.jpg" width="454px" height="303px">
+            <div>
+                <div class="topic-item">
+                    <img src="assets/topic-2.jpg" width="100%">
                     <div class="title">毛小孩說不出的苦痛<br>資訊不透明釀寵物醫療爭議
                     </div>
                 </div>
             </div>
-            <div style="display: flex; justify-content: center;">
-                <div class="topic-2">
-                    <img src="assets/topic-3.jpeg" width="454px" height="303px">
+            <div>
+                <div class="topic-item">
+                    <img src="assets/topic-3.jpeg" width="100%">
                     <div class="title">囚籠內的困獸：<br>展演動物福利如何保障？
                     </div>
                 </div>
             </div>
-            <div style="display: flex; justify-content: center;">
-                <div class="topic-2">
-                    <img src="assets/topic-4.jpg" width="454px" height="303px">
+            <div>
+                <div class="topic-item">
+                    <img src="assets/topic-4.jpg" width="100%">
                     <div class="title">學習歷程檔案寫滿首屆學生焦慮<br>未竟的108課綱理想藍圖
                     </div>
                 </div>
