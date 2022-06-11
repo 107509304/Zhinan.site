@@ -2,128 +2,564 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>同遊新聲　異溫層青年啟對話</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@100;300;400;500;700;900&family=Noto Serif TC:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+
+
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         .page-block {
             background-color: #FFFAF9;
             padding-bottom: 20px;
-            width: 1440px;
-        }
-
-        p {
-
-            width: 780px;
-            line-height: 34.75px;
-            left: 272px;
-            margin-top: 50px;
-            margin-bottom: 45px;
-            margin-left: 272px;
-            margin-right: 388px;
-
-            font-family: 'Noto Sans TC';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 24px;
-            color: #4A4845;
-            display: inline-block;
-
-
-        }
-
-        h1.title {
-            width: 908px;
-            margin-left: 272px;
-            margin-right: -246px;
-            font-family: 'Noto Sans TC';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 55px;
-            line-height: 80px;
-            margin-bottom: -20px;
-
-            color: #6E5241;
-        }
-
-
-        figure.pic {
-            margin-left: 272px;
             width: 100%;
         }
 
-        figure.pic img {
+        body,
+        p {
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+        }
 
-            width: 1076px;
-            top: 526px;
-            padding-bottom: 20.64px;
+        a {
+            text-decoration: none;
+            color: #FFFAF9;
+        }
+
+        /*desktop*/
+        @media (min-width: 768px) {
+
+
+            .only-for-desktop {
+                display: block;
+            }
+
+            .only-for-tablet {
+                display: none;
+            }
+
+            .only-for-phone {
+                display: none;
+            }
+
+
+
+            .header {
+                background-color: #6E5241;
+                width: 100%;
+                height: 120px;
+                position: relative;
+            }
+
+            .header-font {
+                font-family: 'Noto Serif TC';
+                font-size: 24px;
+                line-height: 34px;
+                font-weight: 900;
+                color: #FFFAF9;
+                margin-right: 30px;
+                letter-spacing: 0.1em;
+            }
+
+            .header-font a:hover {
+                color: #FFFAF9;
+                opacity: 60%;
+            }
+
+            .logo {
+                width: 150px;
+                position: absolute;
+                left: 40px;
+            }
+
+            p {
+
+                width: 780px;
+                line-height: 34.75px;
+                left: 272px;
+                margin-top: 50px;
+                margin-bottom: 45px;
+                margin-left: 272px;
+                margin-right: 388px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                color: #4A4845;
+                display: inline-block;
+
+
+            }
+
+            .little-title {
+                width: 780px;
+                line-height: 34.75px;
+                left: 272px;
+                margin-top: 50px;
+                margin-bottom: 45px;
+                margin-left: 272px;
+                margin-right: 388px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                color: #131212;
+                display: inline-block;
+
+
+            }
+
+            .mini-title {
+                width: 780px;
+                line-height: 34.75px;
+                left: 272px;
+                margin-top: 0px;
+                margin-bottom: 45px;
+                margin-left: 272px;
+                margin-right: 388px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                color: #A98B73;
+                display: inline-block;
+
+
+            }
+
+            h1.title {
+                width: 908px;
+                margin-left: 272px;
+                margin-right: px;
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 55px;
+                line-height: 80px;
+                margin-bottom: -20px;
+
+                color: #6E5241;
+            }
+
+
+            figure.pic {
+                margin-left: 272px;
+                width: 100%;
+            }
+
+            figure.pic img {
+
+                width: 1076px;
+                top: 526px;
+                padding-bottom: 20.64px;
+
+            }
+
+            figure.pic figcaption {
+
+                width: 250px;
+                height: 12px;
+                margin-left: 820px;
+                margin-top: 0px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 22px;
+
+                color: #A98B73
+            }
+
+            .bottom-separation {
+
+                width: 251px;
+                height: 0px;
+                margin-left: 1094px;
+                margin-top: 67px;
+                border: 1px solid #A98B73;
+
+            }
+
+            .other-separation {
+
+
+                width: 251px;
+                height: 0px;
+                margin-left: 1094px;
+                margin-top: 82px;
+                border: 1px solid #A98B73;
+
+            }
+
+            .nextother-separation {
+
+
+                width: 251px;
+                height: 0px;
+                margin-left: 1094px;
+                margin-top: 105px;
+                border: 1px solid #A98B73;
+
+            }
+
+            .nnextother-separation {
+
+
+                width: 251px;
+                height: 0px;
+                margin-left: 1094px;
+                margin-top: 125px;
+                border: 1px solid #A98B73;
+
+            }
+
+            .o-separation {
+
+
+                width: 251px;
+                height: 0px;
+                margin-left: 1094px;
+                margin-top: 60px;
+                border: 1px solid #A98B73;
+
+            }
+
+            .x-separation {
+
+
+                width: 251px;
+                height: 0px;
+                margin-left: 1094px;
+                margin-top: 50px;
+                border: 1px solid #A98B73;
+
+            }
+
+
+            #metadata-block {
+                margin-top: 50px;
+                margin-left: 49px;
+                width: 170px;
+                background: #FFFFFF;
+                border: 2px solid #A98B73;
+                display: inline-block;
+            }
+
+            #metadata-block .category {
+                font-size: 20px;
+                font-weight: bold;
+                color: #A98B73;
+                padding-top: 14px;
+                padding-left: 62px;
+                padding-right: 57px;
+                font-family: 'Noto Serif TC';
+
+            }
+
+            #metadata-block .published-date {
+                color: #847E79;
+                font-weight: 500;
+                padding-left: 39px;
+                padding-right: 36px;
+                padding-bottom: 12px;
+                padding-top: 20px;
+                font-family: 'Noto Serif TC';
+
+
+            }
+
+            #metadata-block .Author-text {
+                font-weight: 500;
+                font-size: 15px;
+                padding-left: 41px;
+                padding-right: 30px;
+                color: #847E79;
+                font-family: 'Noto Serif TC';
+            }
+
+
+
+
+            .bottom {
+                width: 100%;
+                height: 166px;
+                background-color: #6E5241;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                margin-top: 10px;
+                bottom: -60px;
+            }
+
+            .bottom-font {
+                color: #FFFAF9;
+                font-family: 'Noto Serif TC';
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 20px;
+                margin-left: 105px;
+                letter-spacing: 0.155em;
+            }
 
         }
 
-        figure.pic figcaption {
+        @media (max-width: 767px) {
+            .only-for-desktop {
+                display: none;
+            }
 
-            width: 250px;
-            height: 12px;
-            margin-left: 820px;
-            margin-top: 0px;
+            .only-for-tablet {
+                display: none;
+            }
 
-            font-family: 'Noto Sans TC';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 15px;
-            line-height: 22px;
-
-            color: #A98B73
-        }
-
-        .bottom-separation {
-
-            width: 251px;
-            height: 0px;
-            margin-left: 1094px;
-            margin-top: 80px;
-            border: 1px solid #A98B73;
-
-        }
-
-        #metadata-block {
-            margin-top: 50px;
-            margin-left: 49px;
-
-            background: #FFFFFF;
-            border: 2px solid #A98B73;
-            display: inline-block;
-        }
-
-        #metadata-block .category {
-            font-size: 20px;
-            font-weight: bold;
-            color: #A98B73;
-            padding-top: 14px;
-            padding-left: 56px;
-            padding-right: 57px;
-
-        }
-
-        #metadata-block .published-date {
-            color: #847E79;
-            font-weight: 500;
-            padding-left: 39px;
-            padding-right: 40px;
-            padding-bottom: 12px;
-            padding-top: 20px;
+            .only-for-phone {
+                display: block;
+            }
 
 
-        }
+            .header {
+                background-color: #6E5241;
+                width: 100%;
+                height: 60px;
+                position: relative;
+            }
 
-        #metadata-block .Author-text {
-            font-weight: 500;
-            font-size: 15px;
-            padding-left: 32px;
-            padding-right: 30px;
-            color: #847E79;
+            .header-font {
+                font-family: 'Noto Serif TC';
+                font-size: 15px;
+                line-height: 29px;
+                font-weight: 900;
+                color: #FFFAF9;
+                margin-right: 15px;
+                letter-spacing: 0.04em;
+            }
+
+            .header-font a:hover {
+                color: #FFFAF9;
+                opacity: 60%;
+            }
+
+            .logo {
+                width: 82px;
+                position: absolute;
+                left: 0px;
+                top: 5px;
+            }
+
+            p {
+
+                width: 379px;
+                line-height: 29px;
+                left: 23px;
+                margin-top: 90px;
+                margin-bottom: 0px;
+                margin-left: 24px;
+                margin-right: 0px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                color: #4A4845;
+                display: block;
+
+
+            }
+
+            .little-title {
+                width: 371px;
+                line-height: 34.75px;
+                left: 23px;
+                margin-top: 27px;
+                margin-bottom: 0px;
+                margin-left: 24px;
+                margin-right: 0px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                color: #131212;
+
+
+            }
+
+            .mini-title {
+                width: 371px;
+                line-height: 34.75px;
+                left: 23px;
+                margin-top: 31px;
+                margin-bottom: -70px;
+                margin-left: 24px;
+                margin-right: 0px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                color: #131212;
+
+
+            }
+
+            h1.title {
+                width: 367px;
+                margin-left: 23px;
+                margin-right: 0px;
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 38px;
+                line-height: 55px;
+                margin-top: -20px;
+                color: #6E5241;
+            }
+
+
+            figure.pic {
+                margin-left: 0px;
+                width: 100%;
+            }
+
+            figure.pic img {
+                margin-top: 10px;
+
+                width: 428px;
+                top: 0px;
+                padding-bottom: 9px;
+
+            }
+
+            figure.pic figcaption {
+
+                width: 402px;
+                height: 57px;
+                margin-left: 17px;
+                margin-top: 0px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 19px;
+
+                color: #A98B73
+            }
+
+            #metadata-block {
+                margin-top: 2px;
+                margin-left: 24px;
+                width: 299px;
+                background: #FFFFFF;
+                border: 2px solid #A98B73;
+                display: block;
+            }
+
+            .category {
+                font-size: 20px;
+                font-weight: bold;
+                color: #A98B73;
+                margin-top: 29px;
+                margin-left: 23px;
+                padding-top: 0px;
+                padding-left: 0px;
+                padding-right: 0px;
+                font-family: 'Noto Serif TC';
+
+            }
+
+            #metadata-block .published-date {
+                color: #847E79;
+                font-weight: 500;
+                font-size: 15px;
+                padding-left: 11px;
+                padding-bottom: 5px;
+                padding-top: 2px;
+                font-family: 'Noto Serif TC';
+
+
+            }
+
+            #metadata-block .Author-text {
+                font-weight: 500;
+                font-size: 15px;
+                padding-left: 11px;
+                padding-top: 3px;
+                color: #847E79;
+                font-family: 'Noto Serif TC';
+            }
+
+            .bottom {
+                width: 100%;
+                height: 123px;
+                background-color: #6E5241;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                margin-top: 10px;
+                bottom: -20px;
+            }
+
+            .bottom-fontt {
+                color: #FFFAF9;
+                font-family: 'Noto Serif TC';
+                font-weight: bold;
+                font-size: 9px;
+                width: 250px;
+                line-height: 20px;
+                margin-left: 20px;
+                letter-spacing: 0.155em;
+                margin-top: -35px;
+            }
+
+            .bottom-font {
+                color: #FFFAF9;
+                font-family: 'Noto Serif TC';
+                font-weight: bold;
+                font-size: 9px;
+                width: 250px;
+                line-height: 20px;
+                margin-left: 20px;
+                letter-spacing: 0.155em;
+                margin-top: -1px;
+            }
+
         }
     </style>
 </head>
 
 <body>
+    <div class="only-for-desktop">
+        <div class="header">
+            <div style="position: absolute;left:0px; top:13px">
+                <img src="assets/logo.png" class="logo">
+            </div>
+            <div style="display: inline-block; position: absolute; right:5px; top:40px">
+                <span class="header-font"><a href="" target="_self">校園</a></span>
+                <span class="header-font"><a href="" target="_self">國際</a></span>
+                <span class="header-font"><a href="" target="_self">體育</a></span>
+                <span class="header-font"><a href="" target="_self">生活</a></span>
+                <span class="header-font"><a href="" target="_self">專題</a></span>
+                <span class="header-font"><a href="" target="_self">關於我們</a></span>
+
+            </div>
+        </div>
     <div class="page-block ">
         <h1 class="title">同遊新聲　異溫層青年啟對話</h1>
         <div id="metadata-block">
@@ -134,7 +570,7 @@
 
 
         </div>
-        <div style="display:inline-block ; margin-left:-220px; ">
+        <div style="display:inline-block ; margin-top:-180px; ">
             <p>一年一度的台灣同志遊行於10月31日在台北市政府前市民廣場盛大登場，今年已邁入第18年，活動當天湧入13萬人。本屆主題「成人之美」表達無論什麼自我認同都應受到尊重，參與者中不乏同樣為了堅持自我認同而加入遊行，成為大眾眼裡看似異溫層、卻喊出不同聲音的群體。
             </p>
 
@@ -155,7 +591,7 @@
             </figure>
         </div>
 
-        <div class="bottom-separation"></div>
+        <div class="other-separation"></div>
 
         <div>
             <figure class="pic">
@@ -166,7 +602,7 @@
             </figure>
         </div>
 
-        <div class="bottom-separation"></div>
+        <div class="other-separation"></div>
 
         <div>
             <figure class="pic">
@@ -177,7 +613,7 @@
             </figure>
         </div>
 
-        <div class="bottom-separation"></div>
+        <div class="other-separation"></div>
 
         <div>
             <p>今年遊行在疫情下順利舉行，卻在活動前出現插曲。國家祈禱早餐會原先預計在同志遊行前一日舉行，其由多組基督教團體組成，已連續舉辦19屆，每年都邀請總統參加，旨在為人民、政府、國家及世界和平禱告。不料，今年卻因總統蔡英文公開邀請民眾參與同志遊行，普遍反同的教會建議蔡英文不出席，最終早餐會於活動前夕停辦，多年傳統因此斷裂。
@@ -195,7 +631,7 @@
             </figure>
         </div>
 
-        <div class="bottom-separation"></div>
+        <div class="other-separation"></div>
         <div>
             <p>身為真光福音教會的一員，就讀國立臺灣大學生物環境系統工程學系研究所的曾繁安雖為異性戀，仍支持同志平權。他在加入真光福音教會前，曾待過性別觀念保守的教會。當時，個人支持同志的信念與信仰衝突，他因此備受折磨，「我支持同志的想法是否悖逆神？」而身旁持不同立場的教友常有激烈爭執，曾繁安也曾因支持同志受到批判、定罪，種種原因都讓他質疑自己，就算參與同志遊行也不敢對外透露。直至踏入真光福音教會，他受教會開放、包容氛圍影響，才終於消除心中的矛盾。
 
@@ -212,7 +648,7 @@
                 <figcaption>
                     中國國民黨青年團報名同志遊行雖受各界質疑，當天還是如期參與，現場記者訪問中國國民黨青年團團長陳柏翰。（攝影／王崴漢）</figcaption>
             </figure>
-            <div class="bottom-separation"></div>
+            <div class="other-separation"></div>
         </div>
 
         <div>
@@ -228,7 +664,7 @@
                 <figcaption>
                     中國國民黨青年團拉著「天暗總會光，共好同齊行」布條，揮著中國國民黨青年團團旗參與遊行。（攝影／王崴漢）</figcaption>
             </figure>
-            <div class="bottom-separation"></div>
+            <div class="other-separation"></div>
 
         </div>
 
@@ -236,10 +672,152 @@
             <p>「性別議題正在被越來越多人看見。」當天參與遊行的臺大學生會會長楊子昂認為，真光福音教會及青年團為同志平權倡議，象徵性別運動不再侷限同溫層，這些團體採取行動支持同志平權，將性別意識帶進異溫層，對運動本身著實為一大突破。
             </p>
         </div>
+        <div class="bottom">
+            <div style="display:inline-block;height: 35px;">
+                <div class="bottom-font">記者｜黑立安 張珈爾 徐宇昕 王崴漢 黃敬文</div>
+                <div class="bottom-font">指導｜李法賢</div>
+                <div class="bottom-font">copyright©2022 指南報社</div>
+            </div>
 
+            <div style="position: relative; width: 185px;height: 50px; margin-right:20px;bottom:3px;"><img
+                    src="assets/logo.png" width=150px>
+            </div>
+        </div>
     </div>
+</div>
+<div class="only-for-phone">
+    <div class="header">
+        <div>
+            <a href="">
+                <img src="assets/logo.png" class="logo"></a>
+        </div>
+        <div style="display: inline-block; position: absolute; right:5px; top:20px">
+            <span class="header-font"><a href="https://106204021.github.io/trashnews/campuscat.html"
+                    target="_self">校園</a></span>
+            <span class="header-font"><a href="https://106204021.github.io/trashnews/sportcat.html"
+                    target="_self">國際</a></span>
+            <span class="header-font"><a href="https://106204021.github.io/trashnews/artcat.html"
+                    target="_self">體育</a></span>
+            <span class="header-font"><a href="https://106204021.github.io/trashnews/about.html"
+                    target="_self">生活</a></span>
+            <span class="header-font"><a href="https://106204021.github.io/trashnews/about.html"
+                    target="_self">專題</a></span>
+            <span class="header-font"><a href="https://106204021.github.io/trashnews/about.html"
+                    target="_self">關於我們</a></span>
+        </div>
+    </div>
+    <div class="page-block ">
+        <div class="category" style="margin-bottom: 30px;">校園</div>
+        <h1 class="title">同遊新聲　異溫層青年啟對話</h1>
+        <div id="metadata-block">
+            <div class="Author-text">文字 / 王崴漢</div>
+            <div class="Author-text">攝影 / 王崴漢</div>
+            <div class="published-date">2020.11.05</div>
 
 
+        </div>
+        <div style="display:inline-block ; margin-top:-60px; ">
+            <p>一年一度的台灣同志遊行於10月31日在台北市政府前市民廣場盛大登場，今年已邁入第18年，活動當天湧入13萬人。本屆主題「成人之美」表達無論什麼自我認同都應受到尊重，參與者中不乏同樣為了堅持自我認同而加入遊行，成為大眾眼裡看似異溫層、卻喊出不同聲音的群體。
+            </p>
+
+        </div>
+
+        <div style=" margin-top:-60px; ">
+            <p>平日常見於夜晚現身的變裝皇后，細心打扮走上街頭，遊行花車上播放社群流行的同志歌曲，車上的舞者與台下遊行民眾一同舞動身軀，同志遊行營造獨特的性別友善空間，這是他們一年中最自在的一瞬。現場多達150組遊行團體中，有非政府組織、各校學生會及性別社團等，不只如此，包括歷來被視為反同的基督教會及中國國民黨青年團等團體也參與其中。
+            </p>
+
+        </div>
+
+        <div>
+            <figure class="pic">
+                <img
+                    src="https://unews.nccu.edu.tw/wp-content/uploads/2020/11/2879f40a28b64b89e5922ecf9b82335a-scaled.jpg">
+                <figcaption>
+                    現場多達150組遊行團體參與，有非政府組織、各校學生會及性別社團等，圖為社團法人台灣親子共學教育促進會。（攝影／王崴漢）</figcaption>
+            </figure>
+        </div>
+
+        <div>
+            <figure class="pic">
+                <img
+                    src="https://unews.nccu.edu.tw/wp-content/uploads/2020/11/f7f2a0770034a3a7985bbd88098ea232-scaled.jpg">
+                <figcaption>
+                    花車上的舞者隨著音樂帶來精彩的舞蹈表演，台下的觀眾也十分熱情，一同將氣氛炒熱到最高點。（攝影／王崴漢）</figcaption>
+            </figure>
+        </div>
+
+        <div>
+            <figure class="pic">
+                <img
+                    src="https://unews.nccu.edu.tw/wp-content/uploads/2020/11/51c0eced95e89f2758d5445af6642056-scaled.jpg">
+                <figcaption>
+                    遊行現場可看見平時多在夜晚活動的變裝皇后，皇后們各個精心打扮，在遊行當天成為亮點。（攝影／王崴漢）</figcaption>
+            </figure>
+        </div>
+        <div style=" margin-top:-60px;" >
+            <p>今年遊行在疫情下順利舉行，卻在活動前出現插曲。國家祈禱早餐會原先預計在同志遊行前一日舉行，其由多組基督教團體組成，已連續舉辦19屆，每年都邀請總統參加，旨在為人民、政府、國家及世界和平禱告。不料，今年卻因總統蔡英文公開邀請民眾參與同志遊行，普遍反同的教會建議蔡英文不出席，最終早餐會於活動前夕停辦，多年傳統因此斷裂。
+
+                「我們知道台灣同志平權運動最大的反對力量來自保守的基督教會。」真光福音教會主任牧師張懋禛表示。與大眾對基督徒反對同性戀運動的認知相違，真光福音教會投入同志平權運動，不僅參加同志大遊行，平時也向社會分享對聖經的另類詮釋，「上帝是愛同志、支持同志婚姻的」。此外，教會也配合10月「台灣彩虹驕傲月」拍攝四部系列影片上傳YouTube，除了解析聖經，同時邀請曾參與反同團體的人士進行訪談。他們將信仰化為行動，協助因同志身分陷入迷惘的基督徒活出自我。
+
+            </p>
+        </div>
+        <div>
+            <figure class="pic">
+                <img
+                    src="https://unews.nccu.edu.tw/wp-content/uploads/2020/11/8ebf8c7dace48557c71bdefd92f05e22-scaled.jpg">
+                <figcaption>
+                    與大眾對基督徒反對同性戀運動的認知相違，真光福音教會投入同志平權運動，遊行當日也參與其中。（攝影／王崴漢）</figcaption>
+            </figure>
+        </div>
+        <div style=" margin-top:-60px;">
+            <p>身為真光福音教會的一員，就讀國立臺灣大學生物環境系統工程學系研究所的曾繁安雖為異性戀，仍支持同志平權。他在加入真光福音教會前，曾待過性別觀念保守的教會。當時，個人支持同志的信念與信仰衝突，他因此備受折磨，「我支持同志的想法是否悖逆神？」而身旁持不同立場的教友常有激烈爭執，曾繁安也曾因支持同志受到批判、定罪，種種原因都讓他質疑自己，就算參與同志遊行也不敢對外透露。直至踏入真光福音教會，他受教會開放、包容氛圍影響，才終於消除心中的矛盾。
+
+                張懋禛提到，持與一般教會不同的看法，必定遭受批評，「我們每一年參加同志遊行當然都是戴著勇氣。」但他期盼透過推廣聖經的新發現持續與社會及教會對話，讓這世界接受差異、擁抱多元。
+
+                真光福音教會並非唯一存於異溫層中卻支持同志平權的團體。隸屬中國國民黨（以下簡稱國民黨）中央委員會實踐研究院的國民黨青年團（以下簡稱青年團）也加入遊行行列。然而，自從報名參與遊行的消息一出，他們便遭受各方批評聲浪；挺同者認為青年團只為增加曝光度，反同者則無法理解青年團的行為動機。
+
+            </p>
+        </div>
+        <div>
+            <figure class="pic">
+                <img
+                    src="https://unews.nccu.edu.tw/wp-content/uploads/2020/11/3987fcf4cdc208df5df7ed72c097c03b-scaled.jpg">
+                <figcaption>
+                    中國國民黨青年團報名同志遊行雖受各界質疑，當天還是如期參與，現場記者訪問中國國民黨青年團團長陳柏翰。（攝影／王崴漢）</figcaption>
+            </figure>
+        </div>
+        <div style=" margin-top:-60px;">
+            <p>「國民黨青年團的組成其實跟整個青年世代並無太大差距。」國民黨青年團團長陳柏翰強調，與國民黨不友善同志的主流意見相悖，青年團認同今年主辦方的理念，認為同性婚姻專法《司法院釋字第七四八號解釋施行法》上路一周年後尚有改善空間，例如保障跨國伴侶締結婚姻之權利，希望通過與國民黨黨內的對話促成立法的修正。
+
+                陳柏翰提到，國民黨長期的對外溝通管道僅限於網路或社會輿論，因此不容易將同溫層外的性別運動聲音帶進黨內。青年團作為支持性別議題的團體，盼搭起內部對話橋樑，讓黨內正視青年世代的訴求。活動當日也有部分國民黨立委、議員到場支持，青年團團員、臺大政治學系學生康晉瑜表示，「我想改變的力量已逐漸發酵。」
+            </p>
+        </div>
+        <div>
+            <figure class="pic">
+                <img
+                    src="https://unews.nccu.edu.tw/wp-content/uploads/2020/11/b625cee429768a6d6533c6e09e6ce1fc-scaled.jpg">
+                <figcaption>
+                    中國國民黨青年團拉著「天暗總會光，共好同齊行」布條，揮著中國國民黨青年團團旗參與遊行。（攝影／王崴漢）</figcaption>
+            </figure>
+        </div>
+
+        <div style=" margin-top:-60px;">
+            <p>「性別議題正在被越來越多人看見。」當天參與遊行的臺大學生會會長楊子昂認為，真光福音教會及青年團為同志平權倡議，象徵性別運動不再侷限同溫層，這些團體採取行動支持同志平權，將性別意識帶進異溫層，對運動本身著實為一大突破。
+            </p>
+        </div>
+            <div class="bottom">
+                <div style="display:inline-block;height: 35px;">
+                    <div class="bottom-font">記者｜黑立安 張珈爾 徐宇昕 王崴漢 黃敬文</div>
+                    <div class="bottom-font">指導｜李法賢</div>
+                    <div class="bottom-font">copyright©2022 指南報社</div>
+                </div>
+
+                <div style="position: relative; width: 185px;height: 50px; margin-right:20px;bottom:3px;"><img
+                        src="assets/logo.png" width=150px>
+                </div>
+            </div>
+        </div>
+</div>
 </body>
 
 </html>
