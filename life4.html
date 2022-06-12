@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>引民重溫舊時　中科大創眷村實境</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@100;300;400;500;700;900&family=Noto Serif TC:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .page-block {
+            background-color: #FFFAF9;
+            padding-bottom: 20px;
+            width: 100%;
+        }
+
+        body,
+        p {
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+        }
+
+        a {
+            text-decoration: none;
+            color: #FFFAF9;
+        }
+
+        /*desktop*/
+        @media (min-width: 1024px) {
+
+
+            .only-for-desktop {
+                display: block;
+            }
+
+            .only-for-tablet {
+                display: none;
+            }
+
+            .only-for-phone {
+                display: none;
+            }
+
+
+            .header {
+                background-color: #6E5241;
+                width: 100%;
+                height: 120px;
+                position: relative;
+            }
+
+            .header-font {
+                font-family: 'Noto Serif TC';
+                font-size: 24px;
+                line-height: 34px;
+                font-weight: 900;
+                color: #FFFAF9;
+                margin-right: 30px;
+                letter-spacing: 0.1em;
+            }
+
+            .header-font a:hover {
+                color: #FFFAF9;
+                opacity: 60%;
+            }
+
+            .logo {
+                width: 150px;
+                position: absolute;
+                left: 40px;
+            }
+
+            p {
+
+                width: 780px;
+                line-height: 34.75px;
+                left: 272px;
+                margin-top: 50px;
+                margin-bottom: 45px;
+                margin-left: 272px;
+                margin-right: 388px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                color: #4A4845;
+                display: inline-block;
+
+
+            }
+
+            h1.title {
+                width: 908px;
+                margin-left: 272px;
+                margin-right: px;
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 55px;
+                line-height: 80px;
+                margin-bottom: -20px;
+
+                color: #6E5241;
+            }
+
+
+            figure.pic {
+                margin-left: 272px;
+                width: 100%;
+            }
+
+            figure.pic img {
+
+                width: 1076px;
+                top: 526px;
+                padding-bottom: 20.64px;
+
+            }
+
+            figure.pic figcaption {
+
+                width: 250px;
+                height: 12px;
+                margin-left: 820px;
+                margin-top: 0px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 22px;
+
+                color: #A98B73
+            }
+
+            .bottom-separation {
+
+                width: 251px;
+                height: 0px;
+                margin-left: 1094px;
+                margin-top: 106px;
+                border: 1px solid #A98B73;
+
+            }
+
+            #metadata-block {
+                margin-top: 50px;
+                margin-left: 49px;
+
+                background: #FFFFFF;
+                border: 2px solid #A98B73;
+                display: inline-block;
+            }
+
+            #metadata-block .category {
+                font-size: 20px;
+                font-weight: bold;
+                color: #A98B73;
+                padding-top: 14px;
+                padding-left: 56px;
+                padding-right: 57px;
+                font-family: 'Noto Serif TC';
+
+            }
+
+            #metadata-block .published-date {
+                color: #847E79;
+                font-weight: 500;
+                padding-left: 36px;
+                padding-right: 40px;
+                padding-bottom: 12px;
+                padding-top: 20px;
+                font-family: 'Noto Serif TC';
+
+
+            }
+
+            #metadata-block .Author-text {
+                font-weight: 500;
+                font-size: 15px;
+                padding-left: 35px;
+                padding-right: 30px;
+                color: #847E79;
+                font-family: 'Noto Serif TC';
+            }
+
+            .bottom {
+                width: 100%;
+                height: 166px;
+                background-color: #6E5241;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                margin-top: 150px;
+                bottom: -60px;
+            }
+
+            .bottom-font {
+                color: #FFFAF9;
+                font-family: 'Noto Serif TC';
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 20px;
+                margin-left: 105px;
+                letter-spacing: 0.155em;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .only-for-desktop {
+                display: none;
+            }
+
+            .only-for-tablet {
+                display: none;
+            }
+
+            .only-for-phone {
+                display: block;
+            }
+
+
+            .header {
+                background-color: #6E5241;
+                width: 100%;
+                height: 60px;
+                position: relative;
+            }
+
+            .header-font {
+                font-family: 'Noto Serif TC';
+                font-size: 15px;
+                line-height: 29px;
+                font-weight: 900;
+                color: #FFFAF9;
+                margin-right: 15px;
+                letter-spacing: 0.04em;
+            }
+
+            .header-font a:hover {
+                color: #FFFAF9;
+                opacity: 60%;
+            }
+
+            .logo {
+                width: 82px;
+                position: absolute;
+                left: 0px;
+                top: 5px;
+            }
+
+            p {
+
+                width: 379px;
+                line-height: 29px;
+                left: 23px;
+                margin-top: 90px;
+                margin-bottom: 0px;
+                margin-left: 24px;
+                margin-right: 0px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                color: #4A4845;
+                display: block;
+
+
+            }
+
+
+
+            h1.title {
+                width: 367px;
+                margin-left: 23px;
+                margin-right: 0px;
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 38px;
+                line-height: 55px;
+                margin-top: -20px;
+                color: #6E5241;
+            }
+
+
+            figure.pic {
+                margin-left: 0px;
+                width: 100%;
+            }
+
+            figure.pic img {
+                margin-top: 10px;
+
+                width: 428px;
+                top: 0px;
+                padding-bottom: 9px;
+
+            }
+
+            figure.pic figcaption {
+
+                width: 402px;
+                height: 57px;
+                margin-left: 17px;
+                margin-top: 0px;
+
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 19px;
+
+                color: #A98B73
+            }
+
+            #metadata-block {
+                margin-top: 2px;
+                margin-left: 24px;
+                width: 299px;
+                background: #FFFFFF;
+                border: 2px solid #A98B73;
+                display: block;
+            }
+
+            .category {
+                font-size: 20px;
+                font-weight: bold;
+                color: #A98B73;
+                margin-top: 29px;
+                margin-left: 23px;
+                padding-top: 0px;
+                padding-left: 0px;
+                padding-right: 0px;
+                font-family: 'Noto Serif TC';
+
+            }
+
+            #metadata-block .published-date {
+                color: #847E79;
+                font-weight: 500;
+                font-size: 15px;
+                padding-left: 11px;
+                padding-bottom: 5px;
+                padding-top: 2px;
+                font-family: 'Noto Serif TC';
+
+
+            }
+
+            #metadata-block .Author-text {
+                font-weight: 500;
+                font-size: 15px;
+                padding-left: 11px;
+                padding-top: 3px;
+                color: #847E79;
+                font-family: 'Noto Serif TC';
+            }
+
+            .bottom {
+                width: 100%;
+                height: 123px;
+                background-color: #6E5241;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                margin-top: 10px;
+                bottom: -20px;
+            }
+
+            .bottom-fontt {
+                color: #FFFAF9;
+                font-family: 'Noto Serif TC';
+                font-weight: bold;
+                font-size: 9px;
+                width: 250px;
+                line-height: 20px;
+                margin-left: 20px;
+                letter-spacing: 0.155em;
+                margin-top: -35px;
+            }
+
+            .bottom-font {
+                color: #FFFAF9;
+                font-family: 'Noto Serif TC';
+                font-weight: bold;
+                font-size: 9px;
+                width: 250px;
+                line-height: 20px;
+                margin-left: 20px;
+                letter-spacing: 0.155em;
+                margin-top: -1px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <body style="background-color: #FFFAF9">
+        <div class="only-for-desktop">
+            <div class="header">
+                <div style="position: absolute;left:0px; top:13px">
+                    <img src="assets/logo.png" class="logo">
+                </div>
+                <div style="display: inline-block; position: absolute; right:5px; top:40px">
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/shomepage.html"
+                            target="_self">校園</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/inhomepage.html"
+                            target="_self">國際</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/spthomepage.html"
+                            target="_self">體育</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/lifehomepage.html"
+                            target="_self">生活</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/topichomepage.html"
+                            target="_self">專題</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/aboutus.html"
+                            target="_self">關於我們</a></span>
+    
+    
+                </div>
+            </div>
+            <div class="page-block ">
+                <h1 class="title">引民重溫舊時　中科大創眷村實境</h1>
+                <div id="metadata-block">
+                    <div class="category" style="margin-bottom: 30px;">生活</div>
+                    <div class="Author-text">文字/ 黑立安</div>
+                    <div class="published-date">2020.12.24 </div>
+
+
+                </div>
+                <div style="margin-top:-200px;">
+                    <p>一手拿皮箱，另一手拿地圖跟日記，小朋友們穿梭在眷村的巷弄，仔細地研究得到的提示，拼湊出故事脈絡。臺中市眷村文物館與國立臺中科技大學創意商品設計系合作，20日推出「北屯新村實境遊戲—
+                        —芋頭番薯　空軍眷村的愛情故事」，遊戲設計團隊透過寓教於樂的方式，讓民眾在認識眷村文化同時，也能回顧舊時代的記憶。</p>
+
+                </div>
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/12/c4ca4238a0b923820dcc509a6f75849b-24-scaled.jpg">
+                        <figcaption>
+                            臺中市眷村文物館與臺中科技大學創意商品設計系合作推出「北屯新村實境遊戲」，參與遊戲的民眾會得到一個皮箱，並根據裡面的道具一一破解關卡。　(圖／黑立安攝)</figcaption>
+                    </figure>
+                </div>
+
+                <div class="bottom-separation"></div>
+
+                <div>
+                    <p>北屯新村實境遊戲為臺中市眷村文物館舉辦的「小眷小時光」系列活動之一，主要設計給國小五、六年級以上民眾玩樂。團隊將舊時代眷村的童玩、生活環境及日常生活元素，像是跳房子、柑仔店等融入遊戲場景。故事包裝為生活在現代的主角「小芋兒」，發現一本講述空軍爺爺與眷村奶奶愛情故事的日記。隨著故事情節發展，民眾跟隨小芋兒一同深入了解眷村生活。遊戲開始前，民眾會領到設計成皮箱的遊戲盒，內容包含奶奶的日記本、北屯新村地圖、正方形透明片。正方形透明片四邊各有不同選項，民眾須依循日記提示到指定地點得到解答，再將透明片上的正確答案朝下擺放，疊放出完整圖案。民眾拼湊完一張圖片即為闖完一關，若六關全數破解，則可獲得獎勵。
+                    </p>
+                </div>
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/12/eccbc87e4b5ce2fe28308fd9f2a7baf3-25.jpg">
+                        <figcaption>
+                            20日的北屯新村實境遊戲發表會當天，邀請北屯國民小學學學體驗。小朋友全神貫注地拿著地圖與日記本，核對眷村地點，進行闖關。　(圖／黑立安攝)</figcaption>
+                    </figure>
+                </div>
+
+                <div class="bottom-separation"></div>
+                <div>
+                    <p>北屯新村實境遊戲主要由創意商品設計系講師徐子雲，帶領學生吳心美、黃子瑄、郭伃媗與設計師侯昶賓一同規劃、設計。為了讓沒有經歷眷村生活的民眾也可以體驗遊戲樂趣，團隊花費許多時間研發細節，過程中遊戲規則也經歷多次更動。徐子雲提到，透過本次計畫，他教導學生工作繁重時如何溝通與整理資料，「他們工作量很大，但同時我也看著他們的履歷慢慢豐厚。」此外，黃子瑄分享，有次因為展場更動，導致已經設計完成的遊戲需配合展覽內容修改，「很多東西要重新弄，就花了很多時間。」即便如此，黃子瑄看到小孩樂在其中，自己也感到相當開心。身為遊戲設計團隊一員，他在籌劃過程中也對眷村文化有更深的了解。
+                    </p>
+                    <div>
+                        <figure class="pic">
+                            <img
+                                src="https://unews.nccu.edu.tw/wp-content/uploads/2020/12/e4da3b7fbbce2345d7772b0674a318d5-19.jpg">
+                            <figcaption>
+                                臺中科技大學創意商品設計系學生在北屯新村實境遊戲發表會當天，用懷舊民謠搭配活潑的舞蹈，讓現場許多民眾都回憶起在眷村成長的記憶。　(圖／黑立安攝)</figcaption>
+                        </figure>
+                    </div>
+                    <div class="bottom-separation"></div>
+                </div>
+
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/12/a87ff679a2f3e71d9181a67b7542122c-23-scaled.jpg">
+                        <figcaption>
+                            北屯新村占地不廣，但為了讓民眾可以深入了解眷村文化，臺中市眷村文物館館方規畫許多展覽、活動，希望能讓民眾在園區內多做停留。　(圖／黑立安攝)</figcaption>
+                    </figure>
+                    <div class="bottom-separation"></div>
+                </div>
+                <div>
+                    <p>除了北屯新村實境遊戲，「小眷小時光」系列活動亦規劃「女子當自強」展覽。以國民政府遷台後女性在家中留守為題材，介紹並展出眷村女性的生活文物，像是麻將、旗袍、鍋碗瓢盆等。展覽搭配照片展示，還原當時眷村女性的生活樣貌。由於北屯新村占地不廣，許多民眾造訪後都認為「村子非常小」，臺中市眷村文物館館長趙家祥期望藉由「小眷小時光」系列活動，吸引民眾駐足，讓北屯新村有翻身的機會。他說：「我們希望透過實境遊戲的方式，讓民眾多停留一些，更能夠把在地知識傳達給各位。」此外，臺中市眷村文物館明年預計推出冰菓室、男士理髮文化展覽，期盼民眾能在北屯新村得到豐富的懷舊文化體驗。
+                    </p>
+                </div>
+
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/12/c81e728d9d4c2f636f067f89cc14862c-25.jpg">
+                        <figcaption>
+                            臺中市眷村文物館舉辦「小眷小時光」系列活動，並規劃「女子當自強」展覽，展出眷村女性的生活文物，還原當時的生活樣貌。(圖／黑立安攝)</figcaption>
+                    </figure>
+                    <div class="bottom-separation"></div>
+                </div>
+                <div class="bottom">
+                    <div style="display:inline-block;height: 35px;">
+                        <div class="bottom-font">記者｜黑立安 張珈爾 徐宇昕 王崴漢 黃敬文</div>
+                        <div class="bottom-font">指導｜李法賢</div>
+                        <div class="bottom-font">copyright©2022 指南報社</div>
+                    </div>
+
+                    <div style="position: relative; width: 185px;height: 50px; margin-right:20px;bottom:3px;"><img
+                            src="assets/logo.png" width=150px>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="only-for-phone">
+            <div class="header">
+                <div>
+                    <a href="https://107509304.github.io/Zhinan.site/homepage.html">
+                        <img src="assets/logo.png" class="logo"></a>
+                </div>
+                <div style="display: inline-block; position: absolute; right:5px; top:20px">
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/shomepage.html"
+                            target="_self">校園</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/inhomepage.html"
+                            target="_self">國際</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/spthomepage.html"
+                            target="_self">體育</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/lifehomepage.html"
+                            target="_self">生活</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/topichomepage.html"
+                            target="_self">專題</a></span>
+                    <span class="header-font"><a href="https://107509304.github.io/Zhinan.site/aboutus.html"
+                            target="_self">關於我們</a></span>
+    
+                </div>
+    
+            </div>
+            <div class="page-block ">
+                <div class="category" style="margin-bottom: 30px;">生活</div>
+                <h1 class="title">引民重溫舊時　中科大創眷村實境</h1>
+                <div id="metadata-block">
+                    <div class="Author-text">文字/ 黑立安</div>
+                    <div class="published-date">2020.12.24 </div>
+                </div>
+
+                <div style="display:inline-block ; margin-top:-58px;">
+                    <p>一手拿皮箱，另一手拿地圖跟日記，小朋友們穿梭在眷村的巷弄，仔細地研究得到的提示，拼湊出故事脈絡。臺中市眷村文物館與國立臺中科技大學創意商品設計系合作，20日推出「北屯新村實境遊戲——芋頭番薯　空軍眷村的愛情故事」，遊戲設計團隊透過寓教於樂的方式，讓民眾在認識眷村文化同時，也能回顧舊時代的記憶。
+                    </p>
+                </div>
+
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/12/c4ca4238a0b923820dcc509a6f75849b-24-scaled.jpg">
+                        <figcaption>
+                            臺中市眷村文物館與臺中科技大學創意商品設計系合作推出「北屯新村實境遊戲」，參與遊戲的民眾會得到一個皮箱，並根據裡面的道具一一破解關卡。　(圖／黑立安攝)
+                        </figcaption>
+                    </figure>
+                </div>
+
+
+                <div style="margin-top:-80px">
+                    <p>北屯新村實境遊戲為臺中市眷村文物館舉辦的「小眷小時光」系列活動之一，主要設計給國小五、六年級以上民眾玩樂。團隊將舊時代眷村的童玩、生活環境及日常生活元素，像是跳房子、柑仔店等融入遊戲場景。故事包裝為生活在現代的主角「小芋兒」，發現一本講述空軍爺爺與眷村奶奶愛情故事的日記。隨著故事情節發展，民眾跟隨小芋兒一同深入了解眷村生活。遊戲開始前，民眾會領到設計成皮箱的遊戲盒，內容包含奶奶的日記本、北屯新村地圖、正方形透明片。正方形透明片四邊各有不同選項，民眾須依循日記提示到指定地點得到解答，再將透明片上的正確答案朝下擺放，疊放出完整圖案。民眾拼湊完一張圖片即為闖完一關，若六關全數破解，則可獲得獎勵。
+                    </p>
+                </div>
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/12/eccbc87e4b5ce2fe28308fd9f2a7baf3-25.jpg">
+                        <figcaption>
+                            20日的北屯新村實境遊戲發表會當天，邀請北屯國民小學學學體驗。小朋友全神貫注地拿著地圖與日記本，核對眷村地點，進行闖關。　(圖／黑立安攝)</figcaption>
+                    </figure>
+                </div>
+
+
+                <div style="margin-top:-80px">
+                    <p>北屯新村實境遊戲主要由創意商品設計系講師徐子雲，帶領學生吳心美、黃子瑄、郭伃媗與設計師侯昶賓一同規劃、設計。為了讓沒有經歷眷村生活的民眾也可以體驗遊戲樂趣，團隊花費許多時間研發細節，過程中遊戲規則也經歷多次更動。徐子雲提到，透過本次計畫，他教導學生工作繁重時如何溝通與整理資料，「他們工作量很大，但同時我也看著他們的履歷慢慢豐厚。」此外，黃子瑄分享，有次因為展場更動，導致已經設計完成的遊戲需配合展覽內容修改，「很多東西要重新弄，就花了很多時間。」即便如此，黃子瑄看到小孩樂在其中，自己也感到相當開心。身為遊戲設計團隊一員，他在籌劃過程中也對眷村文化有更深的了解。
+                    </p>
+                </div>
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/12/e4da3b7fbbce2345d7772b0674a318d5-19.jpg">
+                        <figcaption>
+                            臺中科技大學創意商品設計系學生在北屯新村實境遊戲發表會當天，用懷舊民謠搭配活潑的舞蹈，讓現場許多民眾都回憶起在眷村成長的記憶。　(圖／黑立安攝)
+                        </figcaption>
+                    </figure>
+                </div>
+
+
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/12/a87ff679a2f3e71d9181a67b7542122c-23-scaled.jpg">
+                        <figcaption>北屯新村占地不廣，但為了讓民眾可以深入了解眷村文化，臺中市眷村文物館館方規畫許多展覽、活動，希望能讓民眾在園區內多做停留。　(圖／黑立安攝)</figcaption>
+                    </figure>
+
+                </div>
+                <div style="margin-top:-80px">
+                    <p>除了北屯新村實境遊戲，「小眷小時光」系列活動亦規劃「女子當自強」展覽。以國民政府遷台後女性在家中留守為題材，介紹並展出眷村女性的生活文物，像是麻將、旗袍、鍋碗瓢盆等。展覽搭配照片展示，還原當時眷村女性的生活樣貌。由於北屯新村占地不廣，許多民眾造訪後都認為「村子非常小」，臺中市眷村文物館館長趙家祥期望藉由「小眷小時光」系列活動，吸引民眾駐足，讓北屯新村有翻身的機會。他說：「我們希望透過實境遊戲的方式，讓民眾多停留一些，更能夠把在地知識傳達給各位。」此外，臺中市眷村文物館明年預計推出冰菓室、男士理髮文化展覽，期盼民眾能在北屯新村得到豐富的懷舊文化體驗。
+                    </p>
+                </div>
+
+                <div>
+                    <figure class="pic">
+                        <img
+                            src="https://unews.nccu.edu.tw/wp-content/uploads/2020/12/c81e728d9d4c2f636f067f89cc14862c-25.jpg">
+                        <figcaption>
+                            臺中市眷村文物館舉辦「小眷小時光」系列活動，並規劃「女子當自強」展覽，展出眷村女性的生活文物，還原當時的生活樣貌。(圖／黑立安攝)</figcaption>
+                    </figure>
+                </div>
+                <div class="bottom">
+                    <div>
+                        <div class="bottom-font">記者｜黑立安 張珈爾 徐宇昕 王崴漢 黃敬文</div>
+                        <div class="bottom-font">指導｜李法賢</div>
+                        <div class="bottom-font">copyright©2022 指南報社</div>
+                    </div>
+
+                     <div><img
+                            src="assets/logo.png" width=85px>
+                    </div>
+                </div>
+
+             </div>
+        </div>
+</body>
+
+ </html>
