@@ -207,6 +207,15 @@
                                                 style="height: 284px; left: 16.4%; top: 48px;"></a>
                         </div>
 
+                        <!--
+                          因為 .content-straightline 這個區塊剛好覆蓋了各版連結的區塊，他們兩個都是 position:absolute，
+                          所以後面的覆蓋前面的。
+                          因此我把 .content-straightline 移到上方。
+
+                          我建議把 .content-straightline 拆成兩個 div ，分別是左右兩條線，比較不會發生此非預期的效果。
+                        -->
+                        <div class="content-straightline"></div>
+
                         <div class="phone-page-name">
                                 <a href="https://107509304.github.io/Zhinan.site/shomepage.html"><img
                                                 src="assets/straight1.png" style="left: 19.6%; top: 405px;"></a>
@@ -219,8 +228,6 @@
                                 <a href="https://107509304.github.io/Zhinan.site/topichomepage.html"><img
                                                 src="assets/straight5.png" style="left: 72.6%; top: 405px;"></a>
                         </div>
-
-                        <div class="content-straightline"></div>
 
                         <div class="tag">
                                 <a href="https://107509304.github.io/Zhinan.site/sport6.html"><img src="assets/img1.png"
